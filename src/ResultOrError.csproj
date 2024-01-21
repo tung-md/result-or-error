@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net60</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>ResultOrError</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Tung</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Result,Results,ResultOrError,Error,Handling</PackageTags>
+    <Description>A simple, fluent discriminated union of a result or an error.</Description>
+    <RepositoryType>git</RepositoryType>
+    <licenses>https://opensource.org/licenses/MIT</licenses>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../assets/icon.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="Stylecop.json" />
+    <AdditionalFiles Include="Stylecop.json" />
+  </ItemGroup>
+
+</Project>
